@@ -1,0 +1,41 @@
+@import "../base/Extend";
+main{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    padding: 16px;
+    .main-section{
+        @extend %display-JCC;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    .carousel-container{
+        width: 60%;
+        @extend %display-JCC;
+    }
+    .aside-placeholder{
+        height: 500px;
+         width: 400px;
+         margin-left: 15px;
+    }
+    .card-body{
+        height: 255px;
+    }
+}
+.section-index{
+    @extend %display-JCC;
+    font-size: x-large;
+    .bienvenidos{
+        /* Sirve para que se agrande o achique la letra segun la pantalla que tenemos, es bien responsive. */
+        font-size: clamp(12px, 3vw, 20px);
+        transition-property: all;
+        transition-duration: 2s ;
+    }
+    .bienvenidos:hover{
+        transform: scale(1.5);
+    }
+}

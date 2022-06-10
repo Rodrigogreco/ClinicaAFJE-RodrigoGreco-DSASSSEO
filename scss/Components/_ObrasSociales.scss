@@ -1,0 +1,26 @@
+.box{
+    height: 80px;
+    font-size: x-large;
+    border-radius: 6px;
+    /* lo mantiene centrado al div con lo de abajo */
+    margin: 50px auto; 
+    @extend %display-JCC; 
+    .p-obrassociales{
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .p-obrassociales:hover{
+        /* cresca o escale 1.5 veces su tamaño */
+        transform: scale(1.5);   
+    }
+}
+@import "../base/Extend";
+.div-img-ob1 {
+     @extend %imagenesOB;
+}
+.div-img-ob2{
+    @extend %imagenesOB;
+}
+.div-img-ob3{
+    @extend %imagenesOB;
+}

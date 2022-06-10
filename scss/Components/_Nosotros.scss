@@ -1,0 +1,14 @@
+@import "..//base/Extend";
+.section-nosotros{
+    @extend %display-JCC; 
+    font-size: x-large;
+}
+.descripcion-nosotros{
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: 500px;   
+    justify-content: center;
+    .div-nosotros{    
+        max-width: 600px;
+    }
+}

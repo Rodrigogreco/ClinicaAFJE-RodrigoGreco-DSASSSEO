@@ -1,0 +1,24 @@
+@import "../base/Extend";
+.card{
+    max-width: 400px;
+    padding: 0;
+}
+.doctoras-section{
+    .parrafo{
+        @extend %display-JCC; 
+        font-size: 32px;
+        align-items: flex-end;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        color: #c9c9c9;
+        
+    }
+    .parrafo1{
+    @extend %display-JCC; 
+    font-size: 17px;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px; 
+    }
+}
