@@ -1,16 +1,12 @@
+@import "../base/mixin";
 .barra-navegacion{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 70%;
+    @include Header-Index (flex, center, 70%);
     .nav-right-section{
-        display: flex;
         justify-content: space-around;
         list-style: none;
         margin-top: 10px;
         margin-right: 40px;
-        align-items: center;
-        width: 100%;
+        @include Header-Index ( flex,center, 100%);
     }
     li{
         display: flex;

@@ -1,15 +1,13 @@
 @import "../base/Extend";
+@import "../base/mixin";
 main{
-    display: flex;
-    width: 100%;
     margin-top: 20px;
-    align-items: center;
     padding: 16px;
+    @include Header-Index (flex,center,100%);
     .main-section{
         @extend %display-JCC;
+        @include Header-Index (flex,center,100%);
         flex-direction: row;
-        width: 100%;
-        align-items: center;
         align-content: space-around;
         flex-wrap: wrap;
     }
@@ -19,8 +17,8 @@ main{
     }
     .aside-placeholder{
         height: 500px;
-         width: 400px;
-         margin-left: 15px;
+        width: 400px;
+        margin-left: 15px;
     }
     .card-body{
         height: 255px;

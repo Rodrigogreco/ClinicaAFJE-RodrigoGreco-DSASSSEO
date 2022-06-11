@@ -27,16 +27,15 @@ body header {
 /*Empieza Seccion Header del Index*/
 .barra-navegacion {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 70%;
 }
 .barra-navegacion .nav-right-section {
-  display: flex;
   justify-content: space-around;
   list-style: none;
   margin-top: 10px;
   margin-right: 40px;
+  display: flex;
   align-items: center;
   width: 100%;
 }
@@ -71,7 +70,6 @@ a {
 
 /*Fin Seccion Header del Index*/
 /*Empieza Seccion Bienvenidos a Clinica Index*/
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -81,8 +79,6 @@ a {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -101,8 +97,6 @@ a {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div3 ul, .div2 ul {
   display: block;
   width: 100%;
@@ -123,25 +117,23 @@ a {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, .section-index, main .carousel-container, main .main-section {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 main {
-  display: flex;
-  width: 100%;
   margin-top: 20px;
-  align-items: center;
   padding: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 main .main-section {
-  flex-direction: row;
-  width: 100%;
+  display: flex;
   align-items: center;
+  width: 100%;
+  flex-direction: row;
   align-content: space-around;
   flex-wrap: wrap;
 }
@@ -172,7 +164,6 @@ main .card-body {
 
 /* Fin Seccion Bienvenidos a Clinica index */
 /*Inicio seccion Main en Index*/
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -182,8 +173,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -202,8 +191,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div3 ul, .div2 ul {
   display: block;
   width: 100%;
@@ -224,25 +211,23 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, main .main-section, main .carousel-container, .section-index {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 main {
-  display: flex;
-  width: 100%;
   margin-top: 20px;
-  align-items: center;
   padding: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 main .main-section {
-  flex-direction: row;
-  width: 100%;
+  display: flex;
   align-items: center;
+  width: 100%;
+  flex-direction: row;
   align-content: space-around;
   flex-wrap: wrap;
 }
@@ -273,7 +258,6 @@ main .card-body {
 
 /*Fin Seccion Main en Index*/
 /*Inicio seccion Footer*/
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -283,8 +267,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -303,8 +285,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div3 ul, .div2 ul {
   display: block;
   width: 100%;
@@ -325,14 +305,11 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, main .main-section, main .carousel-container, .section-index {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 .parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -383,7 +360,6 @@ main .card-body {
 
 /*Fin de Seccion Footer*/
 /*Empieza Seccion Equipo*/
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -393,8 +369,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -413,8 +387,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -435,14 +407,11 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, main .main-section, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 .card {
   max-width: 400px;
   padding: 0;
@@ -451,21 +420,20 @@ main .card-body {
 .doctoras-section .parrafo {
   font-size: 32px;
   align-items: flex-end;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 50px;
+  font-family: "Montserrat" sans-serif;
   margin-bottom: 25px;
+  margin-top: 50px;
   color: #c9c9c9;
 }
 .doctoras-section .parrafo1 {
   font-size: 17px;
   align-items: flex-end;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat" sans-serif;
   margin-bottom: 100px;
 }
 
 /*Fin Seccion Equipo*/
 /*Inicia Seccion Especialidades*/
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -475,8 +443,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -495,8 +461,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -517,14 +481,11 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, main .main-section, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p, .doctoras-section .parrafo, .doctoras-section .parrafo1 {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 .section-especialidades .img-especialidades {
   display: grid;
   margin-top: 80px;
@@ -550,7 +511,6 @@ main .card-body {
   transform: scale(1.5);
 }
 
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
   border-radius: 800px;
   width: 225px;
@@ -560,8 +520,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div1 .Especialidad1, .section-div1 .Especialidad2, .section-div2 .especialidad3, .section-div2 .especialidad4 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -580,8 +538,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -602,17 +558,13 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, main .main-section, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p, .doctoras-section .parrafo, .doctoras-section .parrafo1, .section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4, .box {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 /* Fin Seccion Obras Sociales */
 /* Inicio Seccion Nosotros */
-/*Extend que esta relacionado con Obras Sociales*/
 .div-img-ob1, .div-img-ob2, .div-img-ob3 {
   border-radius: 800px;
   width: 225px;
@@ -622,8 +574,6 @@ main .card-body {
   border-radius: 1000px;
 }
 
-/*FIN Extend que esta relacionado con Obras Sociales*/
-/*Extend que esta relacionado con Especialidades*/
 .section-div1 .Especialidad1, .section-div1 .Especialidad2, .section-div2 .especialidad3, .section-div2 .especialidad4 {
   background-color: rgb(244, 244, 244);
   height: 400px;
@@ -642,8 +592,6 @@ main .card-body {
   justify-content: space-around;
 }
 
-/*FIN Extend que esta relacionado con Especialidades*/
-/*Extend que esta relacionado con Footer*/
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -664,14 +612,11 @@ main .card-body {
   margin-bottom: 0;
 }
 
-/*FIN Extend que esta relacionado con Footer*/
-/*Extend Comun para varias secciones*/
 .section-nosotros, main .main-section, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p, .doctoras-section .parrafo, .doctoras-section .parrafo1, .section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4, .box {
   display: flex;
   justify-content: center;
 }
 
-/*FIN Extend Comun para varias secciones*/
 .section-nosotros {
   font-size: x-large;
 }

@@ -1,4 +1,5 @@
 @import "../base/Extend";
+@import "../base/mixin";
 .card{
     max-width: 400px;
     padding: 0;
@@ -6,19 +7,12 @@
 .doctoras-section{
     .parrafo{
         @extend %display-JCC; 
-        font-size: 32px;
-        align-items: flex-end;
-        font-family: 'Montserrat', sans-serif;
+        @include Equipo (32px, flex-end, "Montserrat"  sans-serif, 25px );
         margin-top: 50px;
-        margin-bottom: 25px;
         color: #c9c9c9;
-        
     }
     .parrafo1{
     @extend %display-JCC; 
-    font-size: 17px;
-    align-items: flex-end;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 100px; 
+    @include Equipo (17px, flex-end, "Montserrat"  sans-serif, 100px );
     }
 }
