@@ -508,7 +508,7 @@ main .card-body {
 }
 .box .p-obrassociales:hover {
   /* cresca o escale 1.5 veces su tamaño */
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .div-img-ob3, .div-img-ob2, .div-img-ob1 {
